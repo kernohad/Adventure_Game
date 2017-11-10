@@ -1,0 +1,130 @@
+
+/**
+ * Test the Game as a whole. Minus GUI
+ * 
+ * @author (Dylan Kernohan) 
+ * @version (12-9-15)
+ */
+public class GameTest
+{
+    public static void main()
+    {
+        Game g = new Game();
+        
+        System.out.println(g.getMessage());
+        g.look();
+        System.out.println(g.getMessage());
+        g.move("Left");
+        System.out.println(g.getMessage());
+        g.pickup("lantern");
+        System.out.println(g.getMessage());
+        g.pickup("note1");
+        System.out.println(g.getMessage());
+        g.read("note1");
+        System.out.println(g.getMessage());
+        g.move("Up");
+        System.out.println(g.getMessage());
+        g.pickup("boots");
+        System.out.println(g.getMessage());
+        g.pickup("potion");
+        System.out.println(g.getMessage());
+        g.move("Down");
+        System.out.println(g.getMessage());
+        g.move("Right");
+        System.out.println(g.getMessage());
+        g.move("Right");
+        System.out.println(g.getMessage());
+        g.pickup("paint");
+        System.out.println(g.getMessage());
+        g.pickup("note3");
+        System.out.println(g.getMessage());
+        g.read("note3");
+        System.out.println(g.getMessage());
+        g.move("Up");
+        System.out.println(g.getMessage());
+        g.pickup("hammer");
+        System.out.println(g.getMessage());
+        g.pickup("shield");
+        System.out.println(g.getMessage());
+        g.move("Left");
+        System.out.println(g.getMessage());
+        g.drop("hammer");
+        System.out.println(g.getMessage());
+        g.pickup("rock");
+        System.out.println(g.getMessage());
+        g.pickup("note2");
+        System.out.println(g.getMessage());
+        g.read("note2");
+        System.out.println(g.getMessage());
+        g.list();
+        System.out.println(g.getMessage());
+        g.move("Right");
+        System.out.println(g.getMessage());
+        g.move("Up");
+        System.out.println(g.getMessage());
+        g.drop("rock");
+         System.out.println(g.getMessage());
+        g.drop("boots");
+        System.out.println(g.getMessage());
+        g.pickup("gem");
+        System.out.println(g.getMessage());
+        g.move("Down");
+        System.out.println(g.getMessage());
+        g.move("Left");
+        System.out.println(g.getMessage());
+        g.move("Left");
+        System.out.println(g.getMessage());
+        g.move("Up");
+        System.out.println(g.getMessage());
+        g.drop("paint");
+        System.out.println(g.getMessage());
+        g.drop("potion");
+        System.out.println(g.getMessage());
+        g.pickup("rupee");
+        System.out.println(g.getMessage());
+        g.move("Down");
+        System.out.println(g.getMessage());
+        g.move("Right");
+        System.out.println(g.getMessage());
+        g.move("Up");
+        System.out.println(g.getMessage());
+        g.drop("gem");
+        System.out.println(g.getMessage());
+        g.drop("rupee");
+        System.out.println(g.getMessage());
+        g.pickup("sword");
+        System.out.println(g.getMessage());
+        g.move("Up");
+        System.out.println(g.getMessage());
+        g.drop("shield");
+        System.out.println(g.getMessage());
+        g.drop("sword");
+        System.out.println(g.getMessage());
+        g.pickup("crystal");
+        System.out.println(g.getMessage());
+        g.move("Down");
+        System.out.println(g.getMessage());
+        g.pickup("rupee");
+        System.out.println(g.getMessage());
+        g.pickup("gem");
+        System.out.println(g.getMessage());
+        g.move("Down");
+        System.out.println(g.getMessage());
+        g.list();
+        System.out.println(g.getMessage());
+        g.move("Down");
+        System.out.println(g.getMessage());
+        g.drop("gem");
+        System.out.println(g.getMessage());
+        g.drop("rupee");
+        System.out.println(g.getMessage());
+        g.drop("crystal");
+        System.out.println(g.getMessage());
+        g.gameOver();
+        System.out.println(g.getMessage());
+        
+        
+        
+        
+    }
+}
